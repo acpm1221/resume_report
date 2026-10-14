@@ -331,7 +331,7 @@ export default function Interview() {
                 </p>
               </div>
 
-              <div style={{ display: 'flex', alignItems: 'center', gap: '1.5rem' }}>
+              <div className="report-score-box">
                 <div className="score-ring">
                   <div
                     className="score-circle"
@@ -511,7 +511,7 @@ export default function Interview() {
               </div>
             </div>
 
-            <div style={{ display: 'flex', justifyContent: 'center', gap: '1rem', marginTop: '2rem' }}>
+            <div className="report-actions">
               <button
                 type="button"
                 className="btn btn-primary"
